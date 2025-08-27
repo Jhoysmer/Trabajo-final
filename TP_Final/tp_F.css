@@ -1,0 +1,9 @@
+h1{
+    text-align: center;
+    border: 5px solid skyblue;
+    background-color: beige;
+    border-radius: 40px;
+    box-shadow:rgba(0,0,0,0.4) 10px 10px;
+    font-family: 'Times New Roman', sans-serif;
+    margin-top: 15px;
+}
