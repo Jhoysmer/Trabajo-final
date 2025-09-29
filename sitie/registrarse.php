@@ -5,73 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pantalla de Registro</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #005f73, #0a9396, #94d2bd);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-
-    .register-container {
-      background: rgba(255, 255, 255, 0.15);
-      backdrop-filter: blur(10px);
-      padding: 30px;
-      border-radius: 12px;
-      width: 350px;
-      box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
-    }
-
-    .register-container img {
-      display: block;
-      margin: 0 auto 15px;
-      width: 80px;
-      border-radius: 50%;
-    }
-
-    .register-container input[type="text"],
-    .register-container input[type="tel"],
-    .register-container input[type="email"],
-    .register-container input[type="password"] {
-      width: 100%;
-      padding: 10px;
-      margin: 8px 0;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      font-size: 14px;
-    }
-
-    .terms {
-      display: flex;
-      align-items: center;
-      font-size: 14px;
-      margin: 10px 0;
-    }
-
-    .terms input {
-      margin-right: 8px;
-    }
-
-    .register-container button {
-      width: 100%;
-      padding: 12px;
-      background: #ff4d4d;
-      color: white;
-      border: none;
-      border-radius: 6px;
-      font-size: 16px;
-      cursor: pointer;
-      margin-top: 10px;
-    }
-
-    .register-container button:hover {
-      background: #cc0000;
-    }
-    
-  </style>
+  <link rel="stylesheet" href="registro.css">
 </head>
 <body>
 

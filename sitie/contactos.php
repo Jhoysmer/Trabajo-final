@@ -14,9 +14,9 @@
 <h4>Cuidamos la vida de tu mascota con 
     responsabilidad y dedicacion</h4>
       <ul class="nav-links">
-        <li><a href="tp_F2.html">Inicio</a></li>
+        <li><a href="inicio2.php">Inicio</a></li>
         <li><a href="#servicios">Servicios</a></li>
-        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="nosotros.php">Nosotros</a></li>
         <li><a href="Contactos.html">Contacto - Formulario</a></li>
       </ul>
       <button class="nav-toggle" aria-label="Abrir menú">

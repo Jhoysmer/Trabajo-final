@@ -12,23 +12,18 @@
     <div class="container nav-container">
 <img src="SRC/vetex.png" alt="Logo de tu empresa" width="100" height="100">
       <ul class="nav-links">
-        <li><a href="tp_F.html">Inicio</a></li>
-        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="inicio.php">Inicio</a></li>
+        <li><a href="nosotros.php">Nosotros</a></li>
         <li><a href="Contactos_2.html">Contacto - Formulario</a></li>
-        <script>
-        /*(Script temporal para poner el comentario)
-        crear un if para que verifique si el usuario inicio sesion
-        o no para completar el formulario*/
-        </script>
-      </ul>
+       </ul>
       <button class="nav-toggle" aria-label="Abrir menú">
         ☰
       </button>
       <div class="profile-menu">
   <button class="profile-icon" aria-label="Menú de perfil">👤</button>
   <div class="dropdown" id="dropdown-menu">
-    <a href="Ingresar.html">Iniciar Sesión</a>
-    <a href="registrarse.html">Registrarse</a>
+    <a href="Ingresar.php">Iniciar Sesión</a>
+    <a href="registrarse.php">Registrarse</a>
   </div>
 </div>
     </div>
