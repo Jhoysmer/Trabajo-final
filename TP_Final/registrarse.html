@@ -87,13 +87,12 @@
       <input type="password" id="password" placeholder="Contraseña *" required>
       <input type="password" id="confirmPassword" placeholder="Confirmar contraseña *" required>
       
-      <!-- Casilla de términos -->
       <div class="terms">
         <input type="checkbox" id="terms">
         <label for="terms">Acepto términos y condiciones</label>
       </div>
       
-      <button type="submit">REGISTER</button>
+      <button type="submit">REGISTRARSE</button>
     </form>
   </div>
 
@@ -116,7 +115,6 @@
         return;
       }
 
-      // Solo mostramos si aceptó o no los términos (no bloquea el registro)
       alert(`✅ Registro exitoso
       \nNombre: ${name}
       \nUsuario: ${username}
@@ -126,6 +124,8 @@
       \nEmail: ${email}
       \nAceptó términos: ${terms ? "Sí" : "No"}`);
     });
+    /*Cuando se registre correctamente hay que hacer que el boton
+     con un "if" redireccione al usuario al HTML: tp_F2*/
   </script>
 
 </body>
