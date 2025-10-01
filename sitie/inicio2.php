@@ -13,7 +13,7 @@
 <img src="SRC/vetex.png" alt="Logo de tu empresa" width="100" height="100">
       <ul class="nav-links">
         <li><a href="tp_F2.html">Inicio</a></li>
-        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
         <li><a href="#nosotros">Nosotros</a></li>
         <li><a href="Contactos.html">Contacto - Formulario</a></li>
         <script>

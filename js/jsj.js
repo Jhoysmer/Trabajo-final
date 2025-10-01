@@ -15,3 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+  function toggleInfo(card) {
+    card.classList.toggle("active");
+  }
