@@ -10,13 +10,13 @@
 <body>
 <nav class="navbar">
     <div class="container nav-container">
-<img src="SRC/vetex.png" alt="Logo de tu empresa" width="100" height="100">
+<img src="../SRC/vetex.png" alt="Logo de tu empresa" width="100" height="100">
 <h4>Cuidamos la vida de tu mascota con 
     responsabilidad y dedicacion</h4>
       <ul class="nav-links">
-        <li><a href="tp_F.html">Inicio</a></li>
-        <li><a href="#nosotros">Nosotros</a></li>
-        <li><a href="Contactos_2.html">Contacto - Formulario</a></li>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="nosotros.php">Nosotros</a></li>
+        <li><a href="Contactos_2.php">Contacto - Formulario</a></li>
       </ul>
       <button class="nav-toggle" aria-label="Abrir menú">
         ☰
@@ -24,12 +24,12 @@
       <div class="profile-menu">
   <button class="profile-icon" aria-label="Menú de perfil">👤</button>
   <div class="dropdown" id="dropdown-menu">
-    <a href="Ingresar.html">Iniciar Sesión</a>
-    <a href="registrarse.html">Registrarse</a>
+    <a href="Ingresar.php">Iniciar Sesión</a>
+    <a href="registrarse.php">Registrarse</a>
   </div>
 </div>
   </nav>
-<script src="jsj.js"></script>
+<script src="../js/menu.js"></script>
 <script src="contactos.js">
     /*Crear JS de contactos para las conecciones entre los HTML´s (tp_F y tp_F2) y el Contactos.js*/
 </script>

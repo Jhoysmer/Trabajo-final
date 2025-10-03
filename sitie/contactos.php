@@ -10,14 +10,14 @@
 <body>
 <nav class="navbar">
     <div class="container nav-container">
-<img src="SRC/vetex.png" alt="Logo de tu empresa" width="100" height="100">
+<img src="../SRC/vetex.png" alt="Logo de tu empresa" width="100" height="100">
 <h4>Cuidamos la vida de tu mascota con 
     responsabilidad y dedicacion</h4>
       <ul class="nav-links">
-        <li><a href="inicio2.php">Inicio</a></li>
-        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="">Inicio</a></li>
+        <li><a href="servicios.php">Servicios</a></li>
         <li><a href="nosotros.php">Nosotros</a></li>
-        <li><a href="Contactos.html">Contacto - Formulario</a></li>
+        <li><a href="Contactos.php">Contacto - Formulario</a></li>
       </ul>
       <button class="nav-toggle" aria-label="Abrir menú">
         ☰

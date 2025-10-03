@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabajo Final</title>
-    <link rel="stylesheet" href="tp_F.css"/>
+    <title>Vetex</title>
+    <link rel="stylesheet" href="../css/inicio2.css"/>
     
 </head>
 <body>
 <nav class="navbar">
     <div class="container nav-container">
-<img src="SRC/vetex.png" alt="Logo de tu empresa" width="100" height="100">
+<img src="../SRC/vetex.png" alt="Logo de tu empresa" width="100" height="100">
       <ul class="nav-links">
-        <li><a href="tp_F2.html">Inicio</a></li>
-        <li><a href="servicios.html">Servicios</a></li>
-        <li><a href="#nosotros">Nosotros</a></li>
-        <li><a href="Contactos.html">Contacto - Formulario</a></li>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="servicios.php">Servicios</a></li>
+        <li><a href="nosotros.php">Nosotros</a></li>
+        <li><a href="Contactos.php">Contacto - Formulario</a></li>
         <script>
         /*(Script temporal para poner el comentario)
         crear un if para que verifique si el usuario inicio sesion
