@@ -1,13 +1,14 @@
 <?php
 $nom = $_POST["name"];
-$ape = $_POST["name"];
-$mail = $_POST["name"];
-$tel = $_POST["name"];
-$pais = $_POST["name"];
+$user = $_POST["username"];
+$pais = $_POST["country"];
+$city = $_POST["city"];
+$phone = $_POST["phone"];
+$email = $_POST["email"];
+$pass = $_POST["password"];
 
 
-echo $nom;
-
-
-echo "<h1>Hola </h1>";
+ $con = include "../modelo/user.php";
+echo registrar($nom,$user,$pais,$city,$phone,$email,$pass);
+echo "Registro exitoso";
 ?>

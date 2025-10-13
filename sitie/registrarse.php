@@ -11,14 +11,14 @@
 
   <div class="register-container">
    
-    <form id="registerForm">
-      <input type="nom" id="name" placeholder="Nombre *" required>
-      <input type="un" id="username" placeholder="Nombre de Usuario *" required>
-      <input type="pai" id="country" placeholder="Pais">
-      <input type="cui" id="city" placeholder="Ciudad">
-      <input type="tel" id="phone" placeholder="Telefono *" required>
-       <input type="email"name="email" id="email" placeholder="Email *" required>
-      <input type="password"name="password" id="password" placeholder="Contraseña *" required>
+    <form id="registerForm" method="POST" action="../server/registro.php">
+      <input type="text" name="name" id="name" placeholder="Nombre *" required>
+      <input type="text" name="username" id="username" placeholder="Nombre de Usuario *" required>
+      <input type="text" name="country" id="country" placeholder="Pais">
+      <input type="text" name="city" id="city" placeholder="Ciudad">
+      <input type="tel" name="phone" id="phone" placeholder="Telefono *" required>
+      <input type="email" name="email" id="email" placeholder="Email *" required>
+      <input type="password" name="password" id="password" placeholder="Contraseña *" required>
       <input type="password" id="confirmPassword" placeholder="Confirmar contraseña *" required>
      
       <div class="terms">
