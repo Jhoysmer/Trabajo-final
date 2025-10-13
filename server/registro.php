@@ -9,6 +9,10 @@ $pass = $_POST["password"];
 
 
  $con = include "../modelo/user.php";
-echo registrar($nom,$user,$pais,$city,$phone,$email,$pass);
-echo "Registro exitoso";
+if (registrar($nom,$user,$pais,$city,$phone,$email,$pass)) {
+	header('Location: ../sitie/inicio2.php');
+	exit();
+} else {
+	echo "Error en el registro";
+}
 ?>

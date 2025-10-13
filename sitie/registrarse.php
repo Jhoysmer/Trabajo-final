@@ -59,9 +59,7 @@
       \nEmail: ${email}
       \nAceptó términos: ${terms ? "Sí" : "No"}`);
     
-    /*Cuando se registre correctamente hay que hacer que el boton
-     con un "if" redireccione al usuario al HTML: tp_F2*/
-  </script>
+     </script>
 
 
 </body>
