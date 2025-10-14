@@ -21,13 +21,6 @@
       <button class="nav-toggle" aria-label="Abrir menú">
         ☰
       </button>
-      <div class="profile-menu">
-  <button class="profile-icon" aria-label="Menú de perfil">👤</button>
-  <div class="dropdown" id="dropdown-menu">
-    <a href="Ingresar.php">Iniciar Sesión</a>
-    <a href="registrarse.php">Registrarse</a>
-  </div>
-</div>
   </nav>
 <script src="../js/menu.js"></script>
 <script src="contactos.js">

@@ -17,7 +17,7 @@
         <li><a href="">Inicio</a></li>
         <li><a href="servicios.php">Servicios</a></li>
         <li><a href="nosotros.php">Nosotros</a></li>
-        <li><a href="Contactos.php">Contacto - Formulario</a></li>
+        <li><a href="Contacto.php">Contacto - Formulario</a></li>
       </ul>
       <button class="nav-toggle" aria-label="Abrir menú">
         ☰

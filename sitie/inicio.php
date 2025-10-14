@@ -14,7 +14,7 @@
       <ul class="nav-links">
         <li><a href="#">Inicio</a></li>
         <li><a href="../nosotros.php">Nosotros</a></li>
-        <li><a href="Contactos_2.php">Contacto - Formulario</a></li>
+        <li><a href="Contacto.php">Contacto - Formulario</a></li>
        </ul>
       <div class="profile-menu">
   <button class="profile-icon" aria-label="Menú de perfil">👤</button>
