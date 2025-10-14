@@ -28,7 +28,7 @@
         ☰
       </button>
       <div class="profile-menu">
-  <img src="Avatar-Usuario.png" alt="Avatar" style="width:150px; height:auto; margin-top:40px;">
+  <img src="../SRC/Avatar-Usuario.png" alt="Avatar" style="width:150px; height:auto; margin-top:40px;">
     </div>
   </nav>
 <script src="contactos.js">
