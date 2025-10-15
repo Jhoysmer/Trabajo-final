@@ -16,13 +16,7 @@
         <li><a href="servicios.php">Servicios</a></li>
         <li><a href="nosotros.php">Nosotros</a></li>
         <li><a href="Contactos.php">Contacto - Formulario</a></li>
-        <script>
-        /*(Script temporal para poner el comentario)
-        crear un if para que verifique si el usuario inicio sesion
-        o no para completar el formulario, en esete caso que ya tiene 
-        la sesion iniciada debe ejecutarse un alert que diga que el 
-        folmulario esta completado*/
-        </script>
+        <li><a href="consulta.php">consulta</a>
       </ul>
       <button class="nav-toggle" aria-label="Abrir menú">
         ☰
@@ -31,8 +25,5 @@
   <img src="../SRC/Avatar-Usuario.png" alt="Avatar" style="width:150px; height:auto; margin-top:40px;">
     </div>
   </nav>
-<script src="contactos.js">
-    /*Conectar el HTML con el archivo JS creado anteriormente*/
-</script>
 </body>
 </html>
