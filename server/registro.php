@@ -1,6 +1,6 @@
 <?php
 $nom = $_POST["name"];
-$user = $_POST["username"];
+$user = $_POST[""];
 $pais = $_POST["country"];
 $city = $_POST["city"];
 $phone = $_POST["phone"];
