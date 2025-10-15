@@ -7,10 +7,7 @@
     <link rel="stylesheet" href="carga.css">
 </head>
 <body>
-    <?php
-header("refresh:5;url=sitie/inicio.php");
-exit();
-?>
+
 <div>
     <div class="loader"></div>
     <p class="loading-text">cargando</p>
@@ -19,5 +16,10 @@ exit();
     </div>
 </div>
 <script src="carga.js"><script>
+
+    <?php
+header("refresh:5;url=sitie/inicio.php");
+exit();
+?>
 </body>
 </html>
