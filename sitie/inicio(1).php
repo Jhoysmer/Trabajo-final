@@ -26,6 +26,6 @@
     </div>
   </nav>
 <script src="../js/menu.js"></script>
-<script src="contactos.js"></script>
+
 </body>
 </html>
