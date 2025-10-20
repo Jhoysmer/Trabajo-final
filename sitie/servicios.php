@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabajo Final</title>
-    <link rel="stylesheet" href="../css/servicios.css"/>
+    <link rel="stylesheet" href="../css/sevicios.css"/>
 </head>
 <body>
   <nav class="navbar">
@@ -14,7 +14,7 @@
         <li><a href="inicio.php">Inicio</a></li>
         <li><a href="servicios.php">Servicios</a></li>
         <li><a href="nosotros.php">Nosotros</a></li>
-        <li><a href="Contactos.php">Contacto - Formulario</a></li>
+        <li><a href="contacto-formulario.php">Contacto - Formulario</a></li>
         <script>
        
         </script>

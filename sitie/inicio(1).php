@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vetex</title>
     <link rel="stylesheet" href="../css/inicio.css"/>
+    <link rel="stylesheet" href="../css/contacto"/>
     
 </head>
 <body>
@@ -14,7 +15,7 @@
       <ul class="nav-links">
         <li><a href="#">Inicio</a></li>
         <li><a href="../nosotros.php">Nosotros</a></li>
-        <li><a href="Contacto.php">Contacto - Formulario</a></li>
+        <li><a href="contacto-formulario.php">Contacto - Formulario</a></li>
        </ul>
       <div class="profile-menu">
   <button class="profile-icon" aria-label="Menú de perfil">👤</button>

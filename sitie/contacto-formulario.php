@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pantalla de contacto</title>
-  <link rel="stylesheet" href="..css/contacto.css">
+  <link rel="stylesheet" href="../css/contacto.css"/>
 </head>
 <body>
 
@@ -48,8 +48,25 @@
       \nEmail: ${email}
       \nAceptó términos: ${terms ? "Sí" : "No"}`);
     
-     </script>
+<button class="nav-toggle" aria-label="Abrir menú">
+        ☰
+      </button>
+  </nav>
+<script src="../js/menu.js"></script>
+<script src="contactos.js">
+    /*Crear JS de contactos para las conecciones entre los HTML´s (tp_F y tp_F2) y el Contactos.js*/
+</script>
+<script>
+    document.getElementById("registerForm").addEventListener("submit", function(e){
+      e.preventDefault();
 
+      const Telefono = document.getElementById("Telefono").value;
+      const Whatsapp = document.getElementById("Whatsapp").value;
+    });
+    /*Arreglar esta seccion*/
+
+  
+      </script>
 
 </body>
 </html>
