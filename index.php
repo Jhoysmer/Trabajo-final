@@ -18,7 +18,7 @@
 <script src="carga.js"><script>
 
     <?php
-header("refresh:5;url=sitie/inicio.php");
+header("refresh:5;url=sitie/newinicio.php");
 exit();
 ?>
 </body>

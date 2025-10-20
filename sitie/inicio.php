@@ -6,7 +6,7 @@
     <title>Vetex</title>
     <link rel="stylesheet" href="../css/inicio2.css"/>
 </head>
-<body style="background-image: url('../SRC/fondo.png'); backround-size: cover; backgrount-position: center">
+<body style="background-image: url('../SRC/fondo.png'); backround-size: cover; backgrount-position: center ">
   
 <nav class="navbar">
     <div class="container nav-container">
@@ -17,11 +17,13 @@
         <li><a href="nosotros.php">Nosotros</a></li>
         <li><a href="contacto-formulario.php">Contacto - Formulario</a></li>
       </ul>
-      <button class="nav-toggle" aria-label="Abrir menú">
-        ☰
+      <button class="profile-icon" aria-label="Menú de perfil">👤</button>
+      <div class="dropdown" id="dropdown-menu">
+        <a href="Ingresar.php">Iniciar Sesión</a>
+        <a href="registrarse.php">Registrarse</a>
+      </div>
       </button>
       <div class="profile-menu">
-  <img src="../SRC/Avatar-Usuario.png" alt="Avatar" style="width:150px; height:auto; margin-top:40px;">
     </div>
   </nav>
 </body>
