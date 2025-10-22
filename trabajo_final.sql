@@ -11,7 +11,7 @@ CREATE TABLE `mascota` (
 
 
 CREATE TABLE `productos` (
-  `id` int(11) NOT NULL,
+  `id` int (11) NOT NULL,
   `nombre` varchar(100) NOT NULL,
   `descripcion` text DEFAULT NULL,
   `precio` decimal(10,2) NOT NULL,
@@ -44,16 +44,16 @@ ALTER TABLE `productos`
   ADD PRIMARY KEY (`id`);
 
 ALTER TABLE `usuarios`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `email` (`email`);
+  ADD PRIMARY KEY '(`id`)',
+  ADD UNIQUE KEY `email` '(`email`)';
 
 ALTER TABLE `mascota`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int'(11)' NOT NULL AUTO_INCREMENT;
 
 ALTER TABLE `productos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int '(11)' NOT NULL AUTO_INCREMENT;
 
 ALTER TABLE `usuarios`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int '(11)' NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
