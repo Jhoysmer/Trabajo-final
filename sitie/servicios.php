@@ -4,25 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabajo Final</title>
-    <link rel="stylesheet" href="../css/sevicios.css"/>
+    <link rel="stylesheet" href="../css/servicios.css"/>
 </head>
 <body>
+  <div class="container nav-container">
   <nav class="navbar">
-    <div class="container nav-container">
-<img src="../SRC/vetex.png" alt="Logo de tu empresa" width="100" height="100">
+      <img src="../SRC/vetex.png" alt="Logo de tu empresa" width="100" height="100">
       <ul class="nav-links">
         <li><a href="inicio.php">Inicio</a></li>
         <li><a href="servicios.php">Servicios</a></li>
         <li><a href="nosotros.php">Nosotros</a></li>
         <li><a href="contacto-formulario.php">Contacto - Formulario</a></li>
-        <script>
-       
-        </script>
+
       </ul>
       <button class="nav-toggle" aria-label="Abrir menú">
         ☰
       </button>
 
+    </nav>
 <section id="servicios" class="servicios container">
     <h2>Nuestros Servicios</h2>
     <div class="grid">
@@ -114,6 +113,6 @@
       </div>
     </div>
   </section>
-<script src="jsj.js"></script>
+
 </body>
 </html>

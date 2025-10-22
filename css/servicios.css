@@ -1,5 +1,5 @@
   body {
-  background-image: url("SRC/fondo.png");
+  background-image: url("../SRC/fondo.png");
   background-size: cover;       /* hace que cubra toda la pantalla */
   background-repeat: no-repeat; /* evita que se repita */
   background-position: center;  /* centra la imagen */
@@ -8,6 +8,7 @@
 .navbar {
   background: #ffffff;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  width: 100%;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -15,7 +16,7 @@
 
 .nav-container {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: space-between;
   padding: 15px 0;
 }
@@ -122,7 +123,7 @@
 /* ===== Tarjetas de servicios ===== */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 30px;
 }
 

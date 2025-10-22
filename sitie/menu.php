@@ -1,5 +1,1 @@
-<?php
 
-$con include = "../sitie/" ;
-
-?>
