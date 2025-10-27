@@ -11,7 +11,7 @@
     <div class="container nav-container">
 <img src="../SRC/vetex.png" alt="Logo de tu empresa" width="100" height="100">
       <ul class="nav-links">
-        <li><a href="#">Inicio</a></li>
+        <li><a href="newinicio.php">Inicio</a></li>
         <li><a href="servicios.php">Servicios</a></li>
         <li><a href="nosotros.php">Nosotros</a></li>
         <li><a href="contacto-formulario.php">Contacto - Formulario</a></li>
