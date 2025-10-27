@@ -26,7 +26,7 @@
   
    <form id="registerForm" method="POST" action="../server/registro.php">
      <input type="text" name="name" id="name" placeholder="Nombre *" required>
-     <input type="text" name="petname" id="petname" placeholder="Nombre de su mascota *" required>
+     <input type="text" name="petuser" id="petname" placeholder="Nombre de su mascota *" required>
      <input type="text" name="dni" id="dni" placeholder="DNI*" require>
      <input type="tel" name="phone" id="phone" placeholder="Telefono *" required>
      <input type="email" name="email" id="email" placeholder="Email *" required>

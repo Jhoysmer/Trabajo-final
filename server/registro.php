@@ -7,7 +7,7 @@ $dni = $_POST["dni"];
 
 
  $con = include "../modelo/user.php";
-if (registrar($name,$petuser,$phone,$email,$pass)) {
+if (registrar($name,$petuser,$phone,$email,$dni)) {
 	header('Location: ../sitie/newinicio.php');
 	exit();
 } else {
