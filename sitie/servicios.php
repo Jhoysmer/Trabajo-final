@@ -8,10 +8,16 @@
 
 </head>
 <body>
+<<<<<<< HEAD
   
 <nav class="navbar">
     <div class="container nav-container">
 <img src="../SRC/vetex.png" alt="Logo de tu empresa" width="100" height="100">
+=======
+  <div class="container nav-container">
+  <nav class="navbar">
+      <img src="../SRC/vetex.png" alt="" width="100" height="100">
+>>>>>>> a468b016489240ff2d16dada357c767a1c4c2438
       <ul class="nav-links">
         <li><a href="newinicio.php">Inicio</a></li>
         <li><a href="servicios.php">Servicios</a></li>

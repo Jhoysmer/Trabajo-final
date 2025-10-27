@@ -1,16 +1,14 @@
 <?php
-$nom = $_POST["name"];
-$user = $_POST[""];
-$pais = $_POST["country"];
-$city = $_POST["city"];
+$name = $_POST["name"];
+$petuser = $_POST["petuser"];
 $phone = $_POST["phone"];
 $email = $_POST["email"];
-$pass = $_POST["password"];
+$dni = $_POST["dni"];
 
 
  $con = include "../modelo/user.php";
-if (registrar($nom,$user,$pais,$city,$phone,$email,$pass)) {
-	header('Location: ../sitie/inicio2.php');
+if (registrar($name,$petuser,$phone,$email,$pass)) {
+	header('Location: ../sitie/newinicio.php');
 	exit();
 } else {
 	echo "Error en el registro";
