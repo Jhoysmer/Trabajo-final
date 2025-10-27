@@ -3,23 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/inicio.css"/>
     <title>Trabajo Final</title>
-    <link rel="stylesheet" href="../css/servicios.css"/>
+
 </head>
 <body>
-  <div class="container nav-container">
-  <nav class="navbar">
-      <img src="../SRC/vetex.png" alt="Logo de tu empresa" width="100" height="100">
+  
+<nav class="navbar">
+    <div class="container nav-container">
+<img src="../SRC/vetex.png" alt="Logo de tu empresa" width="100" height="100">
       <ul class="nav-links">
-        <li><a href="inicio.php">Inicio</a></li>
+        <li><a href="newinicio.php">Inicio</a></li>
         <li><a href="servicios.php">Servicios</a></li>
         <li><a href="nosotros.php">Nosotros</a></li>
         <li><a href="contacto-formulario.php">Contacto - Formulario</a></li>
-
       </ul>
-      <button class="nav-toggle" aria-label="Abrir menú">
-        ☰
+      <button class="profile-icon" onclick="mostrarBotonesRegistro(event)" aria-label="Menú de perfil">👤</button>
+        <div class="dropdown" id="dropdown-menu">
+            <a href="login.php">Iniciar Sesión</a>
+            <a href="registro.php">Registrarse</a>
+        </div>
       </button>
+      <div class="profile-menu">
+    </div>
 
     </nav>
 <section id="servicios" class="servicios container">
@@ -113,6 +119,10 @@
       </div>
     </div>
   </section>
+
+
+<script src="../js/servicios.js"></script>
+
 
 </body>
 </html>

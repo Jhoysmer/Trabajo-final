@@ -11,13 +11,13 @@ $isLogged = isset($_SESSION['usuario']);
     <title>Página de inicio</title>
     <link rel="stylesheet" href="../css/inicio.css">
 </head>
-<body style="background-image: url('../SRC/fondo.png'); backround-size: cover; backgrount-position: center ">
+<body style="background-image: url('../SRC/newfondo.png'); backround-size: cover; backgrount-position: center ">
   
 <nav class="navbar">
     <div class="container nav-container">
 <img src="../SRC/vetex.png" alt="Logo de tu empresa" width="100" height="100">
       <ul class="nav-links">
-        <li><a href="#">Inicio</a></li>
+        <li><a href="newinicio.php">Inicio</a></li>
         <li><a href="servicios.php">Servicios</a></li>
         <li><a href="nosotros.php">Nosotros</a></li>
         <li><a href="contacto-formulario.php">Contacto - Formulario</a></li>

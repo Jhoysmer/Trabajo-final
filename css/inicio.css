@@ -1,6 +1,7 @@
 
-  body {
-  background-image: url("SRC/fondo.png");
+ body {
+  background-image: url("../SRC/newfondo.png");
+
   background-size: cover;       /* hace que cubra toda la pantalla */
   background-repeat: no-repeat; /* evita que se repita */
   background-position: center;  /* centra la imagen */
@@ -9,14 +10,16 @@
 .navbar {
   background: #ffffff;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  width: 100%;
   position: sticky;
   top: 0;
   z-index: 100;
+  text-aling: center;
 }
 
 .nav-container {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: space-between;
   padding: 15px 0;
 }
@@ -120,36 +123,3 @@
 .profile-menu.active .dropdown {
   display: block;
 }
-/* ===== Tarjetas de servicios ===== */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
-}
-
-.card {
-  background: white;
-  border-radius: 8px;
-  padding: 25px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  transition: transform 0.3s;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-}
-
-.card h3 {
-  color: #0096c7;
-  margin-bottom: 10px;
-}
-
-    .extra {
-      display: none;
-      margin-top: 10px;
-      color: #444;
-    }
-    .card.active .extra {
-      display: block;
-    }
-
