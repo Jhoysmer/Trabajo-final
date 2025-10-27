@@ -8,16 +8,10 @@
 
 </head>
 <body>
-<<<<<<< HEAD
   
-<nav class="navbar">
+  <nav class="navbar">
     <div class="container nav-container">
 <img src="../SRC/vetex.png" alt="Logo de tu empresa" width="100" height="100">
-=======
-  <div class="container nav-container">
-  <nav class="navbar">
-      <img src="../SRC/vetex.png" alt="" width="100" height="100">
->>>>>>> a468b016489240ff2d16dada357c767a1c4c2438
       <ul class="nav-links">
         <li><a href="newinicio.php">Inicio</a></li>
         <li><a href="servicios.php">Servicios</a></li>
@@ -32,8 +26,7 @@
       </button>
       <div class="profile-menu">
     </div>
-
-    </nav>
+  </nav>
 <section id="servicios" class="servicios container">
     <h2>Nuestros Servicios</h2>
     <div class="grid">
@@ -128,6 +121,7 @@
 
 
 <script src="../js/servicios.js"></script>
+<script src="../js/inicio.js"></script>
 
 
 </body>
