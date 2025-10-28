@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         exit;
     }
 
-    $userModel = new User();
+    $userModel = new //User('');
 
     // Verificar si ya existe
     if ($userModel->existeUsuario($email)) {
