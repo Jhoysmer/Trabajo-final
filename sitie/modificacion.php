@@ -3,12 +3,12 @@
 	<form class="modificarInput" action="../server/modificacion.php" method="POST" enctype="multipart/form-data">
 		<div class="container-select">
 			<?php
-			echo ('');
+			echo ;
 			?>
 			<div id="modalModificar" class=""></div>
 		</div>
 
-		Campos a modificar:<br>
+		Campos a modificar:<br> 
 
 		<div class="grupoInputsCambiar">
 			<div class="imagenUsuario">
