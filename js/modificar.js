@@ -22,7 +22,7 @@ formBajaModificar.addEventListener("submit", function (e) {
 let selectedModificar = document.querySelector(".selectModificar");
 selectedModificar.addEventListener("change", function (e) {
   let user = e.target.selectedOptions[0].value;
-  fetch("../server/peticiones/user.php", {
+  fetch("../server/modificacion.php", {
     method: "POST",
     body: JSON.stringify({
       solicitud: user,

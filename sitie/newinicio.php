@@ -26,6 +26,8 @@ $isLogged = isset($_SESSION['usuario']);
         <div class="dropdown" id="dropdown-menu">
             <a href="login.php">Iniciar Sesión</a>
             <a href="registro.php">Registrarse</a>
+            <a href="eliminacion.php">Borrar cuenta</a>
+            <a href="modificacion.php">Editar cuenta</a>
         </div>
       </button>
       <div class="profile-menu">

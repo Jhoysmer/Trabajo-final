@@ -23,7 +23,7 @@ let selected = document.querySelector(".select");
 selected.addEventListener("change", function (e) {
   let modal = document.querySelector("#modal");
   let user = e.target.selectedOptions[0].value;
-  fetch("../server/peticiones/user.php", {
+  fetch("../server/eliminacion.php", {
     method: "POST",
     body: JSON.stringify({
       solicitud: user,

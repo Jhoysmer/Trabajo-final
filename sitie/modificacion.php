@@ -3,7 +3,7 @@
 	<form class="modificarInput" action="../server/modificacion.php" method="POST" enctype="multipart/form-data">
 		<div class="container-select">
 			<?php
-			echo ;
+			echo $error;
 			?>
 			<div id="modalModificar" class=""></div>
 		</div>
@@ -31,8 +31,6 @@
 					<input type="text" class="cambioInput" id="nombre" placeholder="" name="nombre" required>
 					<spam class="spanInput">Nombre</spam>
 				</label>
-
-				<input type="date" id="fecha" placeholder="fecha" name="fecha" required>
 
 				<div class="btn-submit">
 					<input type="submit" class="btn-modificar" value="Modificar">
