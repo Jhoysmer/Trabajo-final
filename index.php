@@ -15,7 +15,7 @@
   
 
 </div>
-<script src="carga.js"><script>
+<script src="carga.js"></script>
 
     <?php
 header("refresh:5;url=sitie/newinicio.php");
