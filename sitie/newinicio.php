@@ -11,7 +11,7 @@ $isLogged = isset($_SESSION['usuario']);
     <title>Página de inicio</title>
     <link rel="stylesheet" href="../css/inicio.css">
 </head>
-<body style="background-image: url('../SRC/newfondo.png'); backround-size: cover; backgrount-position: center ">
+<body style="background-image: url('../SRC/newfondo.png'); background-size: cover; background-position: center">
   
 <nav class="navbar">
     <div class="container nav-container">
