@@ -25,7 +25,6 @@ $isLogged = isset($_SESSION['usuario']);
       <button class="profile-icon" onclick="mostrarBotonesRegistro(event)" aria-label="Menú de perfil">👤</button>
         <div class="dropdown" id="dropdown-menu">
             <a href="login.php">Iniciar Sesión</a>
-            <a href="registro.php">Registrarse</a>
             <a href="eliminacion.php">Borrar cuenta</a>
             <a href="modificacion.php">Editar cuenta</a>
         </div>
@@ -33,34 +32,38 @@ $isLogged = isset($_SESSION['usuario']);
       <div class="profile-menu">
     </div>
   </nav>
+<div>
+<table>
+  <h2>Usuarios registrados</h2>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Nombre</th>
+      <th>Apellido</th>
+      <th>Usuario</th>
+      <th>Contraseña</th>
+      <th>Email</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <?php while($row=mysqli_fetch_array($query))?>
+    <tr>
+    <th><?=$row['id'];?></th>
+    <th><?=$row['name'];?></th>
+    <th><?=$row['lastname'];?></th>
+    <th><?=$row['username'];?></th>
+    <th><?=$row['password'];?></th>
+    <th><?=$row['email'];?></th>
 
-<?php if ($isLogged): ?>
-    
-    <section>
-        <h1>Bienvenido, <?php echo $_SESSION['usuario']['nombre']; ?> 👋</h1>
-        <a href="../server/logout.php">Cerrar sesión</a>
-    </section>
-
-    <section>
-        <p>Accede a tus servicios, tu perfil o tus actividades.</p>
-        <a href="servicios.php">Ir a Servicios</a>
-    </section>
-
-<?php else: ?>
-   
-    <header>
-        <h1>Bienvenido a nuestra plataforma</h1>
-        
-    
-    </header>
-
-    <main>
-        <p>Descubre los servicios que ofrecemos. Crea tu cuenta para acceder a más funciones.</p>
-    </main>
-
-<?php endif; ?>
-
-
+    <th><a href="">MODIFICAR</a></th>
+    <th><a href="">ELIMINAR</a></th>
+    </tr>
+     <?php endwhile; ?>
+  </tbody>
+</table>
+</div>
 
 <script src="../js/inicio.js"></script>
 </body>

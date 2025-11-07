@@ -7,19 +7,17 @@ SET time_zone = "+00:00";
 CREATE TABLE `usuarios` (
   `id` int(11) NOT NULL,
   `nombre` varchar(15) NOT NULL,
-  `usuario` varchar(15) NOT NULL,
-  `email` varchar(30) NOT NULL,
-  `dni` varchar(30) NOT NULL,
-  `telefono` int(15) NOT NULL,
-  `fecha_registro` timestamp NOT NULL DEFAULT current_timestamp()
+  `apellido` varchar(15) NOT NULL,
+  `usuario` varchar(30) NOT NULL,
+  `contraseña` varchar(30) NOT NULL,
+  `email` int(15) NOT NULL,
+
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 
-INSERT INTO `usuarios` (`id`, `nombre`, `usuario`, `email`, `password`, `pais`, `ciudad`, `telefono`, `fecha_registro`) VALUES
+INSERT INTO `usuarios` (`id`, `nombre`, `apellido`, `usuario`, `contraseña`, `email`) VALUES
 (1, 'Admin', 'Sistema', 'admin@example.com', '$2y$10$abcdefghijklmnopqrstuuW', '', '', 0, '2025-10-13 17:07:07'),
-(2, 'Usuario', 'Prueba', 'usuario@example.com', '$2y$10$abcdefghijklmnopqrstuuW', '', '', 0, '2025-10-13 17:07:07'),
-(3, 'ghjgh', 'hjg', 'gjdfkg@gfgd.com', '1234', 'gfjkgfj', 'gfjkgfj', 0, '2025-10-13 17:43:18'),
-(6, 'gfdgd', 'gfg', 'gjdgfdgdffkg@gfgd.com', '1234', 'fgf', 'gfg', 0, '2025-10-13 17:45:38');
+
 
 
 ALTER TABLE `usuarios`

@@ -9,10 +9,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_SESSION['usuario']['id'])) 
     // 3. Recuperar y Sanitizar los datos del formulario
     // (Usando filter_input como en el login es más seguro)
     $name    = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING);
-    $petuser = filter_input(INPUT_POST, 'petuser', FILTER_SANITIZE_STRING);
-    $phone   = filter_input(INPUT_POST, 'phone', FILTER_SANITIZE_STRING);
-    $email   = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
-    $dni     = filter_input(INPUT_POST, 'dni', FILTER_SANITIZE_STRING);
+    $lastname = filter_input(INPUT_POST, 'lastname', FILTER_SANITIZE_STRING);
+    $username   = filter_input(INPUT_POST, 'username', FILTER_SANITIZE_STRING);
+    $password   = filter_input(INPUT_POST, 'password', FILTER_SANITIZE_EMAIL);
+    $email     = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_STRING);
 
     // Recuperar el ID del usuario de la sesión
     $id_usuario = $_SESSION['usuario']['id'];

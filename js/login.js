@@ -11,7 +11,8 @@ const usuarios = [
 document.getElementById("loginForm").addEventListener("submit", function (event) 
 { 
   event.preventDefault(); 
- 
+  const name = document.getElementById("name").value.trim(); 
+  const lastname = document.getElementById("lastname").value.trim(); 
   const username = document.getElementById("username").value.trim(); 
   const password = document.getElementById("password").value.trim(); 
   const message = document.getElementById("message"); 

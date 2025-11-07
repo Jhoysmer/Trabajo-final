@@ -1,9 +1,7 @@
 <?php
- 
-
-function registrar($name,$petuser,$phone,$email,$dni) {
+function registrar($name,$lastname,$username,$password,$email) {
     $con = include "conexion.php";
-    $query = "INSERT INTO usuarios (nombre, petuser, dni, email, telefono) VALUES ('$name', '$petuser', '$dni', '$email', '$phone')";
+    $query = "INSERT INTO usuarios (nombre, apellido, usuario, contraseña, email) VALUES ('$name', '$lastname', '$username', '$password', '$email')";
     $resultado = mysqli_query($con, $query);
 
     if($resultado){

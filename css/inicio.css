@@ -123,3 +123,34 @@
 .profile-menu.active .dropdown {
   display: block;
 }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  color: #0096c7;
+  margin-bottom: 10px;
+}
+
+    .extra {
+      display: none;
+      margin-top: 10px;
+      color: #444;
+    }
+    .card.active .extra {
+      display: block;
+    }
